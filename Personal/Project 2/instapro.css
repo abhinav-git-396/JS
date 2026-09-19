@@ -1,0 +1,253 @@
+body {
+    background-color: rgb(12, 16, 20);
+    margin: 0;
+}
+
+.left {
+    width: 70%;
+    height: 75%;
+}
+
+.left img {
+    width: 100%;
+}
+
+.full {
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+.back-btn {
+
+    background-color: #202124;
+    border: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    margin-left: 57px;
+}
+
+.back-btn img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.right {
+    color: white;
+    width: 54%;
+    font-size: 20px;
+    font-weight: 300;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 560px;
+}
+
+.first {
+    margin-left: 15px;
+    color: rgb(242, 244, 246);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+form input[type="email"],
+form input[type="password"] {
+    background-color: #202124;
+    color: rgb(242, 244, 246);
+    width: 535px;
+    padding: 19px;
+    margin-top: 16px;
+    margin-bottom: 2px;
+
+      border: 1px solid #737373;
+    border-radius: 13px;
+
+    font-size: 15px;
+}
+form input::placeholder {
+    color: #a8a8a8;
+}
+
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+    outline: none;
+     border: 1px solid rgba(255, 255, 255, 0.853);
+}
+
+.log {
+    margin-top: 18px;
+    margin-bottom: 3px;
+    padding: 11px;
+    width: 565px;
+    border-radius: 25px;
+    border-color: transparent;
+    background-color: rgb(0, 100, 224);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.forget {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    padding: 14px;
+    width: 565px;
+    border-radius: 22px;
+    border-color: transparent;
+    background-color: rgb(12, 16, 20);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: aliceblue;
+
+}
+
+.facebook {
+    margin-top: 15px;
+    padding: 14px;
+    width: 565px;
+    border-radius: 22px;
+    border: none;
+    background-color: rgb(40, 41, 44);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(178, 184, 190);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.facebook img {
+    width: 18px;
+    height: 18px;
+}
+
+.account {
+    margin-bottom: 1px;
+    padding: 12px;
+    width: 565px;
+    border-radius: 22px;
+    border: 1px solid #0095f6;
+    background-color: rgb(40, 41, 44);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+    color: #0095f6;
+}
+.meta {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.meta img {
+    width: 70px;
+    height: auto;
+    border-radius: 22px;
+}
+.forget:hover{
+    background-color: rgb(60, 61, 67);
+}
+.log:hover {
+    opacity: 0.6;
+}
+.facebook:hover{
+    background-color: rgb(60, 61, 67);
+}
+.account:hover {
+    background-color: rgb(60, 61, 67);
+    border-color: #00aaff;
+    color: #00aaff;
+}
+button:focus {
+    outline: none;
+}
+.footer {
+    width: 100%;
+    background-color: #0b0f12;
+    color: #a8a8a8;
+
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+
+    padding-top: 28px;
+    padding-bottom: 38px;
+
+    box-sizing: border-box;
+}
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 18px;
+
+    max-width: 1200px;
+
+    margin: 0 auto;
+}
+.footer-links a {
+    color: #a8a8a8;
+
+    text-decoration: none;
+
+    font-size: 14px;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
+.footer-bottom {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 25px;
+
+    margin-top: 24px;
+}
+.language {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    font-size: 14px;
+
+    cursor: pointer;
+}
+.arrow {
+    font-size: 20px;
+
+    color: #a8a8a8;
+
+    margin-top: -5px;
+}
+.copyright {
+    font-size: 14px;
+
+    color: #a8a8a8;
+}
